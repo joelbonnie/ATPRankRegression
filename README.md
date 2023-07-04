@@ -1,12 +1,12 @@
 # ATPRankRegression
-DSCI Group Project
+## Predicting the ATP Rankings
+### DSCI Group Project
 
 
-DSCI 100 Final Project:
-Predicting the ATP Rankings
+(From DSCI 100 Final Project)
 Introduction
 
-The Assocation of Tennis Professionals is the governing body for international professional men's tennis tournaments. The ATP maintains a widely recognized ranking of professional tennis players based on their past results. For example, Serbian tennis superstar Novak Djokovic currently sits atop of the ATP rankings, while the highest ranking Canadian, Felix Auger-Aliassime, ranks 11th. For this project, we will be making use of an Assocation of Tennis Profesionals (ATP) dataset to predict players' ATP ranking. Generally speaking, the goal of this project is to develop a regression model which can predict the ATP rank of a player given past information about players and matches. Examples of predictor variables include age of the player, ATP rank points, height of the player, and so on and so forth.
+The Association of Tennis Professionals is the governing body for international professional men's tennis tournaments. The ATP maintains a widely recognized ranking of professional tennis players based on their past results. For example, Serbian tennis superstar Novak Djokovic currently sits atop the ATP rankings, while the highest-ranking Canadian, Felix Auger-Aliassime, ranks 11th. For this project, we will be making use of an Association of Tennis Professionals (ATP) dataset to predict players' ATP ranking. Generally speaking, the goal of this project is to develop a regression model which can predict the ATP rank of a player given past information about players and matches. Examples of predictor variables include the age of the player, ATP rank points, height of the player, and so on and so forth.
 
 The dataset we are using has been compiled from Jeff Slackmans Github page (https://github.com/JeffSackmann/tennis_atp). The dataset contains information regarding players, the match, and the tournament the match was played in. The dataset itself is limited from 2017-2019. However, the ATP ranking formula/system has not changed since then. Therefore, we can test the accuracy of our model by testing its predictive ability on the current rankings of players. For instance, we can attempt to use our model to predict Felix Auger-Aliassime's ranking in 2021.
 
